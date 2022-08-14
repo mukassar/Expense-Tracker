@@ -1,5 +1,6 @@
 
 import ExpenseItem from "./Components/ExpenseItem";
+import LoginForm from "./Components/LoginForm";
 import NavBar from "./Components/NavBar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 		<div className="App">
 			<NavBar Home="Home" about="about us" services="Services" contact='Contact Us'></NavBar>
 			<ExpenseItem date={expenseDate} Title={expenseTitle} Amount={expenseAmount}/>
+			<LoginForm/>
 		</div>
 	);
 }
